@@ -69,7 +69,7 @@ nav .active {
   @apply text-[20px] capitalize mt-5 font-bold;
 }
 #portfolio .projects-container .project .image {
-  @apply overflow-hidden rounded-lg max-w-full h-[130px];
+  @apply overflow-hidden rounded-lg max-w-[230px] h-[130px];
 }
 #portfolio .projects-container .project .image img {
   @apply w-full h-full object-cover;

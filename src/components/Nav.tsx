@@ -1,4 +1,4 @@
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { AiOutlineHome } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
 const Nav = () => {
@@ -14,7 +14,7 @@ const Nav = () => {
       >
         <AiOutlineHome />
       </a>
-      <a
+      {/* <a
         href="#about"
         className={`text-[20px] bg-transparent rounded-[50%] p-3 text-c-light hover:bg-nav-bg ${
           activeSection === "#about" && "active"
@@ -22,7 +22,7 @@ const Nav = () => {
         onClick={() => setActiveSection("#about")}
       >
         <AiOutlineUser />
-      </a>
+      </a> */}
       <a
         href="#experiance"
         className={`text-[20px] bg-transparent rounded-[50%] p-3 text-c-light hover:bg-nav-bg ${

@@ -2,7 +2,10 @@ import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className="py-[100px] bg-c-primary mt-10" id="footer">
+    <footer
+      className="py-[100px] bg-c-primary mt-10"
+      id="footer"
+    >
       <h2 className="text-center text-black font-bold mx-auto text-[25px]">
         Omar Alrifai
       </h2>
@@ -15,14 +18,14 @@ const Footer = () => {
             Home
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             href="#about"
             className="text-black font-semibold"
           >
             About
           </a>
-        </li>
+        </li> */}
         <li>
           <a
             href="#experiance"
@@ -41,10 +44,10 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href="#testimonials"
+            href="#hoppies"
             className="text-black font-semibold"
           >
-            Testimonials
+            Hoppies
           </a>
         </li>
         <li>

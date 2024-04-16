@@ -1,4 +1,4 @@
-import Me from "../assets/me.png";
+import Me from "../assets/myPhoto/myPhoto.jpg";
 import HeaderSocials from "./HeaderSocials";
 import ScrollDown from "./ScrollDown";
 const Header = () => {
@@ -22,7 +22,7 @@ const Header = () => {
           Let's Talk
         </a>
       </div>
-      <div className="mt-8 bg-gradient-to-b from-c-primary to-transparent rounded-t-[50%] py-10 max-w-[20rem] h-[24rem] mx-auto overflow-hidden">
+      <div className="flex justify-center items-center mt-8 bg-gradient-to-b from-c-primary to-transparent rounded-t-[50%] py-10 max-w-[20rem] h-[24rem] mx-auto overflow-hidden">
         <img
           src={Me}
           alt="my photo"

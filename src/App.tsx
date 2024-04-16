@@ -1,12 +1,12 @@
 import {
-  About,
+  // About,
   Contact,
   Experiance,
   Footer,
   Header,
   Nav,
   Portfolio,
-  Testimonials,
+  Hoppies,
   Up,
 } from "./components/ExportComps";
 export default function App() {
@@ -15,10 +15,10 @@ export default function App() {
       <Up />
       <Header />
       <Nav />
-      <About />
+      {/* <About /> */}
       <Experiance />
       <Portfolio />
-      <Testimonials />
+      <Hoppies />
       <Contact />
       <Footer />
     </>
