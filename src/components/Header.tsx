@@ -6,10 +6,10 @@ const Header = () => {
     <div className="container relative">
       <h5 className="mt-10">Hello I'am </h5>
       <h1>Omar Alrifai</h1>
-      <h5 className="text-c-light">FrontEnd Developer</h5>
+      <h5 className="text-c-light">Frontend Developer</h5>
       <div className="flex items-center justify-center gap-5 mt-12">
         <a
-          href=""
+          href="#"
           download={true}
           className="btn"
         >
