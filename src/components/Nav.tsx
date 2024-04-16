@@ -14,15 +14,6 @@ const Nav = () => {
       >
         <AiOutlineHome />
       </a>
-      {/* <a
-        href="#about"
-        className={`text-[20px] bg-transparent rounded-[50%] p-3 text-c-light hover:bg-nav-bg ${
-          activeSection === "#about" && "active"
-        }`}
-        onClick={() => setActiveSection("#about")}
-      >
-        <AiOutlineUser />
-      </a> */}
       <a
         href="#experiance"
         className={`text-[20px] bg-transparent rounded-[50%] p-3 text-c-light hover:bg-nav-bg ${

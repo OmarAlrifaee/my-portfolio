@@ -12,8 +12,8 @@ const Contact = () => {
       formRef.current,
       import.meta.env.VITE_PUPLIC_KEY
     )
-      .then((test) => console.log(test))
-      .then((test) => console.log(test));
+      .then((respone) => console.log(respone))
+      .then((data) => console.log(data));
     e.currentTarget.reset();
   };
 
