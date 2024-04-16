@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("./assets/bg-texture.png");
+  @apply bg-c-bg text-white leading-[1.7];
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+h1 {
+  font-size: 2.5rem;
+}
+section {
+  margin-top: 8rem;
+}
+section > h2,
+section > h5 {
+  text-align: center;
+  @apply text-c-light;
+}
+section > h2 {
+  @apply text-c-primary;
+  margin-bottom: 3rem;
+}
+a {
+  @apply text-c-primary transition-all duration-[400ms] hover:text-white;
+}
+.btn {
+  width: max-content;
+  display: inline-block;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid;
+  @apply text-c-primary border-c-primary hover:border-transparent transition-all duration-[400ms] hover:bg-white hover:text-c-bg;
+}
+.btn-primary {
+  @apply bg-c-primary text-c-bg;
+}
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.container {
+  @apply w-[90%] md:w-[86%] lg:w-[75%] text-center mx-auto;
+}
+nav .active {
+  @apply bg-c-bg text-white;
+}
+#portfolio .projects-container {
+  animation: show 1s;
+}
+#portfolio .projects-container .project {
+  transition: 0.3s;
+  @apply bg-c-primary-variant hover:bg-transparent p-5 rounded-xl overflow-hidden;
+}
+#portfolio .projects-container .project h3 {
+  @apply text-[20px] capitalize mt-5 font-bold;
+}
+#portfolio .projects-container .project .image {
+  @apply overflow-hidden rounded-lg max-w-full h-[130px];
+}
+#portfolio .projects-container .project .image img {
+  @apply w-full h-full object-cover;
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
