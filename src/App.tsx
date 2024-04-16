@@ -6,7 +6,7 @@ import {
   Header,
   Nav,
   Portfolio,
-  Hoppies,
+  Hobbies,
   Up,
 } from "./components/ExportComps";
 export default function App() {
@@ -18,7 +18,7 @@ export default function App() {
       {/* <About /> */}
       <Experiance />
       <Portfolio />
-      <Hoppies />
+      <Hobbies />
       <Contact />
       <Footer />
     </>

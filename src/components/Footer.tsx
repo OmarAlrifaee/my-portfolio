@@ -44,10 +44,10 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href="#hoppies"
+            href="#hobbies"
             className="text-black font-semibold"
           >
-            Hoppies
+            Hobbies
           </a>
         </li>
         <li>

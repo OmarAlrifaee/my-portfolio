@@ -5,7 +5,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import Nav from "./Nav";
 import Portfolio from "./Portfolio";
-import Hoppies from "./Hoppies";
+import Hobbies from "./Hobbies";
 import Templates from "./Templates";
 import JsProjects from "./JsProjects";
 import ReactProjects from "./ReactProjects";
@@ -21,6 +21,6 @@ export {
   Header,
   Nav,
   Portfolio,
-  Hoppies,
+  Hobbies,
   ReactProjects,
 };

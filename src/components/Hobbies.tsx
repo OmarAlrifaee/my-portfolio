@@ -6,11 +6,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
-const Hoppies = () => {
+const Hobbies = () => {
   return (
-    <section id="hoppies">
+    <section id="hobbies">
       <h5>Thats Me</h5>
-      <h2>My Hoppies</h2>
+      <h2>My Hobbies</h2>
       <div className="container md:w-[40%]">
         <Swiper
           modules={[Pagination]}
@@ -67,4 +67,4 @@ const Hoppies = () => {
   );
 };
 
-export default Hoppies;
+export default Hobbies;
