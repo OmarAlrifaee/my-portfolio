@@ -1,6 +1,7 @@
 import Me from "../assets/myPhoto/myPhoto.jpg";
 import HeaderSocials from "./HeaderSocials";
 import ScrollDown from "./ScrollDown";
+import CV from "../assets/my-cv/cv.pdf";
 const Header = () => {
   return (
     <div className="container relative">
@@ -9,7 +10,7 @@ const Header = () => {
       <h5 className="text-c-light">Frontend Developer</h5>
       <div className="flex items-center justify-center gap-5 mt-12">
         <a
-          href="#"
+          href={CV}
           download={true}
           className="btn"
         >
