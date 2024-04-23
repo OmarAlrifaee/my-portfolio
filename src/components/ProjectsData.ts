@@ -17,6 +17,7 @@ import SHOPPING_CART_REACT_PHOTO from "../assets/Projects/shopping-cart-react.jp
 import CRUDS_APP_REACT_PHOTO from "../assets/Projects/CRUDS-APP-REACT.png";
 import GYM_APP_REACT_PHOTO from "../assets/Projects/gym-app-react.jpg";
 import NOTES_APP_APP_REACT_PHOTO from "../assets/Projects/notes-app-react.avif";
+import YOUTUBE_CLONE_REACT_PHOTO from "../assets/Projects/youtube-clone.jpg";
 type Project = {
   id: number;
   photo?: string;
@@ -111,46 +112,14 @@ const ProjectsData: MainObject = {
 
     {
       id: 2,
-      photo: SELECT_MENU_REACT_PHOTO,
-      photoAlt: "Select menu Photo",
-      title: "Custom Select Menu",
-      gitHubUrl: "https://github.com/OmarAlrifaee/ts-custom-select-menu/",
-      LiveDemoUrl: "https://omaralrifaee.github.io/ts-custom-select-menu/",
+      photo: YOUTUBE_CLONE_REACT_PHOTO,
+      photoAlt: "Youtube clone photo",
+      title: "Youtube Clone",
+      gitHubUrl: "https://github.com/OmarAlrifaee/youtube-clone-react/",
+      LiveDemoUrl: "https://omaralrifaee.github.io/youtube-clone-react",
     },
     {
       id: 3,
-      photo: XO_GAME_REACT_PHOTO,
-      photoAlt: "XO Game Photo",
-      title: "XO Game",
-      gitHubUrl: "https://github.com/OmarAlrifaee/react-xo-game/",
-      LiveDemoUrl: "https://omaralrifaee.github.io/react-xo-game/",
-    },
-    {
-      id: 4,
-      photo: BANK_TEMPLATE_PHOTO,
-      photoAlt: "Bank Template Photo",
-      title: "Bank Tamplate",
-      gitHubUrl: "https://github.com/OmarAlrifaee/bank/",
-      LiveDemoUrl: "https://omaralrifaee.github.io/bank/",
-    },
-    {
-      id: 5,
-      photo: SHOPPING_CART_REACT_PHOTO,
-      photoAlt: "Shopping Cart Photo",
-      title: "Shopping Cart",
-      gitHubUrl: "https://github.com/OmarAlrifaee/react-cart/",
-      LiveDemoUrl: "https://omaralrifaee.github.io/react-cart/",
-    },
-    {
-      id: 6,
-      photo: CRUDS_APP_REACT_PHOTO,
-      photoAlt: "CRUDS App Photo",
-      title: "CRUDS App",
-      gitHubUrl: "https://github.com/OmarAlrifaee/react-cruds/",
-      LiveDemoUrl: "https://omaralrifaee.github.io/react-cruds/",
-    },
-    {
-      id: 7,
       photo: GYM_APP_REACT_PHOTO,
       photoAlt: "GYM App Photo",
       title: "GYM App",
@@ -158,12 +127,53 @@ const ProjectsData: MainObject = {
       LiveDemoUrl: "https://omaralrifaee.github.io/gym/",
     },
     {
-      id: 8,
+      id: 4,
+      photo: SHOPPING_CART_REACT_PHOTO,
+      photoAlt: "Shopping Cart Photo",
+      title: "Shopping Cart",
+      gitHubUrl: "https://github.com/OmarAlrifaee/react-cart/",
+      LiveDemoUrl: "https://omaralrifaee.github.io/react-cart/",
+    },
+    {
+      id: 9,
       photo: NOTES_APP_APP_REACT_PHOTO,
       photoAlt: "Notes App Photo",
       title: "Notes App",
       gitHubUrl: "https://github.com/OmarAlrifaee/notes-app/",
       LiveDemoUrl: "https://omaralrifaee.github.io/notes-app/",
+    },
+
+    {
+      id: 6,
+      photo: XO_GAME_REACT_PHOTO,
+      photoAlt: "XO Game Photo",
+      title: "XO Game",
+      gitHubUrl: "https://github.com/OmarAlrifaee/react-xo-game/",
+      LiveDemoUrl: "https://omaralrifaee.github.io/react-xo-game/",
+    },
+    {
+      id: 7,
+      photo: CRUDS_APP_REACT_PHOTO,
+      photoAlt: "CRUDS App Photo",
+      title: "CRUDS App",
+      gitHubUrl: "https://github.com/OmarAlrifaee/react-cruds/",
+      LiveDemoUrl: "https://omaralrifaee.github.io/react-cruds/",
+    },
+    {
+      id: 8,
+      photo: SELECT_MENU_REACT_PHOTO,
+      photoAlt: "Select menu Photo",
+      title: "Custom Select Menu",
+      gitHubUrl: "https://github.com/OmarAlrifaee/ts-custom-select-menu/",
+      LiveDemoUrl: "https://omaralrifaee.github.io/ts-custom-select-menu/",
+    },
+    {
+      id: 9,
+      photo: BANK_TEMPLATE_PHOTO,
+      photoAlt: "Bank Template Photo",
+      title: "Bank Tamplate",
+      gitHubUrl: "https://github.com/OmarAlrifaee/bank/",
+      LiveDemoUrl: "https://omaralrifaee.github.io/bank/",
     },
   ],
 };

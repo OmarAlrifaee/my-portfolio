@@ -3,7 +3,7 @@ import Templates from "./Templates";
 import JsProjects from "./JsProjects";
 import ReactProjects from "./ReactProjects";
 const Portfolio = () => {
-  const [category, setCategory] = useState<string>("js");
+  const [category, setCategory] = useState<string>("react");
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>

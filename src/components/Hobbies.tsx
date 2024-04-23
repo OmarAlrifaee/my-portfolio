@@ -22,6 +22,20 @@ const Hobbies = () => {
             <div className="bg-c-bg-variant p-5 py-12 rounded-xl select-none cursor-grab min-h-[250px]">
               <div className="overflow-hidden aspect-[1/1] w-[4rem] rounded-[50%] mx-auto mb-3 border-[4px] border-c-primary-variant">
                 <img
+                  src={avatar2}
+                  alt=""
+                />
+              </div>
+              <h5>Writing Code</h5>
+              <small className="text-c-light font-[300] w-[80%]  mx-auto mt-3">
+                I Just Love Doing My Job
+              </small>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="bg-c-bg-variant p-5 py-12 rounded-xl select-none cursor-grab min-h-[250px]">
+              <div className="overflow-hidden aspect-[1/1] w-[4rem] rounded-[50%] mx-auto mb-3 border-[4px] border-c-primary-variant">
+                <img
                   src={avatar1}
                   alt=""
                 />
@@ -30,20 +44,6 @@ const Hobbies = () => {
               <small className="text-c-light font-[300] w-[80%]  mx-auto mt-3">
                 I Love Playing Shotting Video Games, Games Such As CS:GO and
                 Valorant
-              </small>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="bg-c-bg-variant p-5 py-12 rounded-xl select-none cursor-grab min-h-[250px]">
-              <div className="overflow-hidden aspect-[1/1] w-[4rem] rounded-[50%] mx-auto mb-3 border-[4px] border-c-primary-variant">
-                <img
-                  src={avatar2}
-                  alt=""
-                />
-              </div>
-              <h5>Writing Code</h5>
-              <small className="text-c-light font-[300] w-[80%]  mx-auto mt-3">
-                I Just Love Doing My Job
               </small>
             </div>
           </SwiperSlide>
