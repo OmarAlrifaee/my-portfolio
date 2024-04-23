@@ -1,7 +1,7 @@
 import Me from "../assets/myPhoto/myPhoto.jpg";
 import HeaderSocials from "./HeaderSocials";
 import ScrollDown from "./ScrollDown";
-import CV from "../assets/my-cv/cv.pdf";
+import CV from "../assets/my-cv/omarAlrifai-cv.pdf";
 const Header = () => {
   return (
     <div className="container relative">
