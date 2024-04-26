@@ -10,6 +10,7 @@ import Templates from "./Templates";
 import JsProjects from "./JsProjects";
 import ReactProjects from "./ReactProjects";
 import Up from "./Up";
+import FullStackProjects from "./FullStackProjects";
 export {
   About,
   Contact,
@@ -23,4 +24,5 @@ export {
   Portfolio,
   Hobbies,
   ReactProjects,
+  FullStackProjects,
 };

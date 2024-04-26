@@ -30,6 +30,7 @@ type MainObject = {
   templates: Project[];
   JsProjects: Project[];
   ReactProjects: Project[];
+  fullStackProjects: Project[];
 };
 const ProjectsData: MainObject = {
   templates: [
@@ -176,5 +177,6 @@ const ProjectsData: MainObject = {
       LiveDemoUrl: "https://omaralrifaee.github.io/bank/",
     },
   ],
+  fullStackProjects: [],
 };
 export default ProjectsData;
