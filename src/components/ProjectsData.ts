@@ -58,6 +58,14 @@ const ProjectsData: MainObject = {
       gitHubUrl: "https://github.com/OmarAlrifaee/dashboard-tamplate",
       LiveDemoUrl: "https://omaralrifaee.github.io/dashboard-tamplate",
     },
+    {
+      id: 4,
+      photo: BANK_TEMPLATE_PHOTO,
+      photoAlt: "Bank Template Photo",
+      title: "Bank Tamplate",
+      gitHubUrl: "https://github.com/OmarAlrifaee/bank/",
+      LiveDemoUrl: "https://omaralrifaee.github.io/bank/",
+    },
   ],
   JsProjects: [
     {
@@ -69,23 +77,7 @@ const ProjectsData: MainObject = {
       LiveDemoUrl: "https://omaralrifaee.github.io/js-typing-speed-quiz/",
     },
     {
-      id: 2,
-      photo: QUIZ_APP_JS_PHOTO,
-      photoAlt: "Quiz App Photo",
-      title: "Quiz App",
-      gitHubUrl: "https://github.com/OmarAlrifaee/js-quiz-app/",
-      LiveDemoUrl: "https://omaralrifaee.github.io/js-quiz-app/",
-    },
-    {
       id: 3,
-      photo: CRUDS_APP_JS_PHOTO,
-      photoAlt: "CRDUS App Photo",
-      title: "CURDS App",
-      gitHubUrl: "https://github.com/OmarAlrifaee/js-cruds/",
-      LiveDemoUrl: "https://omaralrifaee.github.io/js-cruds/",
-    },
-    {
-      id: 4,
       photo: MEMORY_GAME_JS_PHOTO,
       photoAlt: "Memory Game Photo",
       title: "Memory Game",
@@ -93,7 +85,7 @@ const ProjectsData: MainObject = {
       LiveDemoUrl: "https://omaralrifaee.github.io/memory-game/",
     },
     {
-      id: 5,
+      id: 4,
       photo: HANGMAN_GAME_JS_PHOTO,
       photoAlt: "Hangman Game Photo",
       title: "Hangman Game",
@@ -128,14 +120,6 @@ const ProjectsData: MainObject = {
       LiveDemoUrl: "https://omaralrifaee.github.io/gym/",
     },
     {
-      id: 4,
-      photo: SHOPPING_CART_REACT_PHOTO,
-      photoAlt: "Shopping Cart Photo",
-      title: "Shopping Cart",
-      gitHubUrl: "https://github.com/OmarAlrifaee/react-cart/",
-      LiveDemoUrl: "https://omaralrifaee.github.io/react-cart/",
-    },
-    {
       id: 5,
       photo: NOTES_APP_APP_REACT_PHOTO,
       photoAlt: "Notes App Photo",
@@ -143,7 +127,6 @@ const ProjectsData: MainObject = {
       gitHubUrl: "https://github.com/OmarAlrifaee/notes-app/",
       LiveDemoUrl: "https://omaralrifaee.github.io/notes-app/",
     },
-
     {
       id: 6,
       photo: XO_GAME_REACT_PHOTO,
@@ -159,22 +142,6 @@ const ProjectsData: MainObject = {
       title: "CRUDS App",
       gitHubUrl: "https://github.com/OmarAlrifaee/react-cruds/",
       LiveDemoUrl: "https://omaralrifaee.github.io/react-cruds/",
-    },
-    {
-      id: 8,
-      photo: SELECT_MENU_REACT_PHOTO,
-      photoAlt: "Select menu Photo",
-      title: "Custom Select Menu",
-      gitHubUrl: "https://github.com/OmarAlrifaee/ts-custom-select-menu/",
-      LiveDemoUrl: "https://omaralrifaee.github.io/ts-custom-select-menu/",
-    },
-    {
-      id: 9,
-      photo: BANK_TEMPLATE_PHOTO,
-      photoAlt: "Bank Template Photo",
-      title: "Bank Tamplate",
-      gitHubUrl: "https://github.com/OmarAlrifaee/bank/",
-      LiveDemoUrl: "https://omaralrifaee.github.io/bank/",
     },
   ],
   fullStackProjects: [],
