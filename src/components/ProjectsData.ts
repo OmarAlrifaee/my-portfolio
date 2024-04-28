@@ -4,19 +4,14 @@ import THIRD_TEMPLATE_PHOTO from "../assets/Projects/third-template.png";
 import DASHBOARD_PHOTO from "../assets/Projects/dashboard.png";
 // js photos
 import TYPING_SPEED_TEST_JS_PHOTO from "../assets/Projects/typing-speed-test-js.jpg";
-import QUIZ_APP_JS_PHOTO from "../assets/Projects/quiz-app-js.png";
-import CRUDS_APP_JS_PHOTO from "../assets/Projects/cruds-app-js.png";
 import MEMORY_GAME_JS_PHOTO from "../assets/Projects/memory-game-js.jpeg";
 import HANGMAN_GAME_JS_PHOTO from "../assets/Projects/hangman-game-js.png";
 // react photos
 import QUIZ_APP_REACT_PHOTO from "../assets/Projects/quiz-app-react.webp";
-import SELECT_MENU_REACT_PHOTO from "../assets/Projects/select-menu-react.png";
 import XO_GAME_REACT_PHOTO from "../assets/Projects/xo-game-react.png";
 import BANK_TEMPLATE_PHOTO from "../assets/Projects/bank-react-template.png";
-import SHOPPING_CART_REACT_PHOTO from "../assets/Projects/shopping-cart-react.jpg";
 import CRUDS_APP_REACT_PHOTO from "../assets/Projects/CRUDS-APP-REACT.png";
 import GYM_APP_REACT_PHOTO from "../assets/Projects/gym-app-react.jpg";
-import NOTES_APP_APP_REACT_PHOTO from "../assets/Projects/notes-app-react.avif";
 import YOUTUBE_CLONE_REACT_PHOTO from "../assets/Projects/youtube-clone.jpg";
 type Project = {
   id: number;
@@ -120,15 +115,7 @@ const ProjectsData: MainObject = {
       LiveDemoUrl: "https://omaralrifaee.github.io/gym/",
     },
     {
-      id: 5,
-      photo: NOTES_APP_APP_REACT_PHOTO,
-      photoAlt: "Notes App Photo",
-      title: "Notes App",
-      gitHubUrl: "https://github.com/OmarAlrifaee/notes-app/",
-      LiveDemoUrl: "https://omaralrifaee.github.io/notes-app/",
-    },
-    {
-      id: 6,
+      id: 4,
       photo: XO_GAME_REACT_PHOTO,
       photoAlt: "XO Game Photo",
       title: "XO Game",
@@ -136,7 +123,7 @@ const ProjectsData: MainObject = {
       LiveDemoUrl: "https://omaralrifaee.github.io/react-xo-game/",
     },
     {
-      id: 7,
+      id: 5,
       photo: CRUDS_APP_REACT_PHOTO,
       photoAlt: "CRUDS App Photo",
       title: "CRUDS App",
