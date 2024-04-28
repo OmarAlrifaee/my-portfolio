@@ -23,6 +23,7 @@ type Project = {
   gitHubUrl: string;
   LiveDemoUrl: string;
   skills: string[];
+  auth?: { title: string; email: string; password: string };
 };
 type MainObject = {
   templates: Project[];
@@ -174,6 +175,11 @@ const ProjectsData: MainObject = {
         "shadcn",
         "react-query",
       ],
+      auth: {
+        title: "You Can Sign In With This Account",
+        email: "guest@gmail.com",
+        password: "guest12345",
+      },
     },
   ],
 };
