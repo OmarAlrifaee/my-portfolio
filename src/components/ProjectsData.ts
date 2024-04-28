@@ -60,15 +60,6 @@ const ProjectsData: MainObject = {
       LiveDemoUrl: "https://omaralrifaee.github.io/dashboard-tamplate",
       skills: ["html", "css"],
     },
-    {
-      id: 4,
-      photo: BANK_TEMPLATE_PHOTO,
-      photoAlt: "Bank Template Photo",
-      title: "Bank Tamplate",
-      gitHubUrl: "https://github.com/OmarAlrifaee/bank/",
-      LiveDemoUrl: "https://omaralrifaee.github.io/bank/",
-      skills: ["react", "tailwindcss"],
-    },
   ],
   JsProjects: [
     {
@@ -157,6 +148,15 @@ const ProjectsData: MainObject = {
       gitHubUrl: "https://github.com/OmarAlrifaee/react-cruds/",
       LiveDemoUrl: "https://omaralrifaee.github.io/react-cruds/",
       skills: ["react", "tailwindcss", "framer-motion"],
+    },
+    {
+      id: 6,
+      photo: BANK_TEMPLATE_PHOTO,
+      photoAlt: "Bank Template Photo",
+      title: "Bank Tamplate",
+      gitHubUrl: "https://github.com/OmarAlrifaee/bank/",
+      LiveDemoUrl: "https://omaralrifaee.github.io/bank/",
+      skills: ["react", "tailwindcss"],
     },
   ],
   fullStackProjects: [
