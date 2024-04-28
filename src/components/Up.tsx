@@ -14,14 +14,13 @@ const Up = () => {
     return () => window.removeEventListener("scroll", hundleScroll);
   }, []);
   return (
-    show && (
-      <button
-        onClick={hundleClick}
-        className={`fixed right-5 bottom-5`}
-      >
-        <IoArrowUpCircle className="text-c-primary text-[30px] z-[500]" />
-      </button>
-    )
+    <>
+      {show && (
+        <button onClick={hundleClick} className={`fixed right-5 bottom-5`}>
+          <IoArrowUpCircle className="text-c-primary text-[30px] z-[500]" />
+        </button>
+      )}
+    </>
   );
 };
 

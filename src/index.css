@@ -63,7 +63,7 @@ nav .active {
 }
 #portfolio .projects-container .project {
   transition: 0.3s;
-  @apply bg-c-primary-variant hover:bg-transparent p-5 rounded-xl overflow-hidden;
+  @apply bg-c-primary-variant hover:bg-transparent p-5 rounded-xl overflow-hidden max-w-[300px];
 }
 #portfolio .projects-container .project h3 {
   @apply text-[20px] capitalize mt-5 font-bold;

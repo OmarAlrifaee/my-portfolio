@@ -13,6 +13,8 @@ import BANK_TEMPLATE_PHOTO from "../assets/Projects/bank-react-template.png";
 import CRUDS_APP_REACT_PHOTO from "../assets/Projects/CRUDS-APP-REACT.png";
 import GYM_APP_REACT_PHOTO from "../assets/Projects/gym-app-react.jpg";
 import YOUTUBE_CLONE_REACT_PHOTO from "../assets/Projects/youtube-clone.jpg";
+// react + backend as a services platforms
+import REACT_SNAPGRAM_PHOTO from "../assets/Projects/snapgram.png";
 type Project = {
   id: number;
   photo?: string;
@@ -20,6 +22,7 @@ type Project = {
   title: string;
   gitHubUrl: string;
   LiveDemoUrl: string;
+  skills: string[];
 };
 type MainObject = {
   templates: Project[];
@@ -36,6 +39,7 @@ const ProjectsData: MainObject = {
       title: "First Template",
       gitHubUrl: "https://github.com/OmarAlrifaee/second-tamplate",
       LiveDemoUrl: "https://omaralrifaee.github.io/second-tamplate/",
+      skills: ["html", "css", "js"],
     },
     {
       id: 2,
@@ -44,6 +48,7 @@ const ProjectsData: MainObject = {
       title: "Second Template",
       gitHubUrl: "https://github.com/OmarAlrifaee/third-tamplate",
       LiveDemoUrl: "https://omaralrifaee.github.io/third-tamplate/",
+      skills: ["html", "css", "js"],
     },
     {
       id: 3,
@@ -52,6 +57,7 @@ const ProjectsData: MainObject = {
       title: "Dashboard",
       gitHubUrl: "https://github.com/OmarAlrifaee/dashboard-tamplate",
       LiveDemoUrl: "https://omaralrifaee.github.io/dashboard-tamplate",
+      skills: ["html", "css"],
     },
     {
       id: 4,
@@ -60,6 +66,7 @@ const ProjectsData: MainObject = {
       title: "Bank Tamplate",
       gitHubUrl: "https://github.com/OmarAlrifaee/bank/",
       LiveDemoUrl: "https://omaralrifaee.github.io/bank/",
+      skills: ["react", "tailwindcss"],
     },
   ],
   JsProjects: [
@@ -70,6 +77,7 @@ const ProjectsData: MainObject = {
       title: "Typing Speed Test",
       gitHubUrl: "https://github.com/OmarAlrifaee/js-typing-speed-quiz/",
       LiveDemoUrl: "https://omaralrifaee.github.io/js-typing-speed-quiz/",
+      skills: ["html", "css", "js"],
     },
     {
       id: 3,
@@ -78,6 +86,7 @@ const ProjectsData: MainObject = {
       title: "Memory Game",
       gitHubUrl: "https://github.com/OmarAlrifaee/memory-game/",
       LiveDemoUrl: "https://omaralrifaee.github.io/memory-game/",
+      skills: ["html", "css", "js"],
     },
     {
       id: 4,
@@ -86,6 +95,7 @@ const ProjectsData: MainObject = {
       title: "Hangman Game",
       gitHubUrl: "https://github.com/OmarAlrifaee/hangman-game/",
       LiveDemoUrl: "https://omaralrifaee.github.io/hangman-game/",
+      skills: ["html", "css", "js"],
     },
   ],
   ReactProjects: [
@@ -96,6 +106,7 @@ const ProjectsData: MainObject = {
       title: "Quiz App",
       gitHubUrl: "https://github.com/OmarAlrifaee/quiz-app/",
       LiveDemoUrl: "https://omaralrifaee.github.io/quiz-app/",
+      skills: ["react", "bootstrap", "react-router-dom"],
     },
 
     {
@@ -105,6 +116,14 @@ const ProjectsData: MainObject = {
       title: "Youtube Clone",
       gitHubUrl: "https://github.com/OmarAlrifaee/youtube-clone-react/",
       LiveDemoUrl: "https://omaralrifaee.github.io/youtube-clone-react",
+      skills: [
+        "react",
+        "typescript",
+        "redux-toolkit",
+        "tailwindcss",
+        "react-router-dom",
+        "axios",
+      ],
     },
     {
       id: 3,
@@ -113,6 +132,12 @@ const ProjectsData: MainObject = {
       title: "GYM App",
       gitHubUrl: "https://github.com/OmarAlrifaee/gym/",
       LiveDemoUrl: "https://omaralrifaee.github.io/gym/",
+      skills: [
+        "react",
+        "react-router-dom",
+        "react-loader-spinner",
+        "bootstrap",
+      ],
     },
     {
       id: 4,
@@ -121,6 +146,7 @@ const ProjectsData: MainObject = {
       title: "XO Game",
       gitHubUrl: "https://github.com/OmarAlrifaee/react-xo-game/",
       LiveDemoUrl: "https://omaralrifaee.github.io/react-xo-game/",
+      skills: ["react"],
     },
     {
       id: 5,
@@ -129,8 +155,26 @@ const ProjectsData: MainObject = {
       title: "CRUDS App",
       gitHubUrl: "https://github.com/OmarAlrifaee/react-cruds/",
       LiveDemoUrl: "https://omaralrifaee.github.io/react-cruds/",
+      skills: ["react", "tailwindcss", "framer-motion"],
     },
   ],
-  fullStackProjects: [],
+  fullStackProjects: [
+    {
+      id: 1,
+      photo: REACT_SNAPGRAM_PHOTO,
+      photoAlt: "snapgram photo",
+      title: "SnapGram",
+      gitHubUrl: "https://github.com/OmarAlrifaee/snapgram",
+      LiveDemoUrl: "https://snapgram-inky-xi.vercel.app/",
+      skills: [
+        "react",
+        "typescript",
+        "appwrite",
+        "tailwindcss",
+        "shadcn",
+        "react-query",
+      ],
+    },
+  ],
 };
 export default ProjectsData;
