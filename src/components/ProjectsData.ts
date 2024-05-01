@@ -8,11 +8,11 @@ import MEMORY_GAME_JS_PHOTO from "../assets/Projects/memory-game-js.jpeg";
 import HANGMAN_GAME_JS_PHOTO from "../assets/Projects/hangman-game-js.png";
 // react photos
 import QUIZ_APP_REACT_PHOTO from "../assets/Projects/quiz-app-react.webp";
-import XO_GAME_REACT_PHOTO from "../assets/Projects/xo-game-react.png";
 import BANK_TEMPLATE_PHOTO from "../assets/Projects/bank-react-template.png";
 import CRUDS_APP_REACT_PHOTO from "../assets/Projects/CRUDS-APP-REACT.png";
 import GYM_APP_REACT_PHOTO from "../assets/Projects/gym-app-react.jpg";
 import YOUTUBE_CLONE_REACT_PHOTO from "../assets/Projects/youtube-clone.jpg";
+import REACT_ECOMMERCE_PHOTO from "../assets/Projects/e-commerce-react.jpg";
 // react + backend as a services platforms
 import REACT_SNAPGRAM_PHOTO from "../assets/Projects/snapgram.png";
 type Project = {
@@ -93,14 +93,21 @@ const ProjectsData: MainObject = {
   ReactProjects: [
     {
       id: 1,
-      photo: QUIZ_APP_REACT_PHOTO,
-      photoAlt: "Quiz App Photo",
-      title: "Quiz App",
-      gitHubUrl: "https://github.com/OmarAlrifaee/quiz-app/",
-      LiveDemoUrl: "https://omaralrifaee.github.io/quiz-app/",
-      skills: ["react", "bootstrap", "react-router-dom"],
+      photo: REACT_ECOMMERCE_PHOTO,
+      photoAlt: "E-commerce App Photo",
+      title: "E-commerce App",
+      gitHubUrl: "https://github.com/OmarAlrifaee/e-commerce",
+      LiveDemoUrl:
+        "https://e-commerce-4yd7k21nu-omars-projects-8d5b264b.vercel.app/",
+      skills: [
+        "react",
+        "tailwindcss",
+        "axios",
+        "framer-motion",
+        "typescript",
+        "sass",
+      ],
     },
-
     {
       id: 2,
       photo: YOUTUBE_CLONE_REACT_PHOTO,
@@ -131,14 +138,15 @@ const ProjectsData: MainObject = {
         "bootstrap",
       ],
     },
+
     {
       id: 4,
-      photo: XO_GAME_REACT_PHOTO,
-      photoAlt: "XO Game Photo",
-      title: "XO Game",
-      gitHubUrl: "https://github.com/OmarAlrifaee/react-xo-game/",
-      LiveDemoUrl: "https://omaralrifaee.github.io/react-xo-game/",
-      skills: ["react"],
+      photo: QUIZ_APP_REACT_PHOTO,
+      photoAlt: "Quiz App Photo",
+      title: "Quiz App",
+      gitHubUrl: "https://github.com/OmarAlrifaee/quiz-app/",
+      LiveDemoUrl: "https://omaralrifaee.github.io/quiz-app/",
+      skills: ["react", "bootstrap", "react-router-dom"],
     },
     {
       id: 5,
