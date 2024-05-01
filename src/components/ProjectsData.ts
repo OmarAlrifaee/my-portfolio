@@ -97,8 +97,7 @@ const ProjectsData: MainObject = {
       photoAlt: "E-commerce App Photo",
       title: "E-commerce App",
       gitHubUrl: "https://github.com/OmarAlrifaee/e-commerce",
-      LiveDemoUrl:
-        "https://e-commerce-4yd7k21nu-omars-projects-8d5b264b.vercel.app/",
+      LiveDemoUrl: "https://e-commerce-lilac-ten.vercel.app/",
       skills: [
         "react",
         "tailwindcss",
